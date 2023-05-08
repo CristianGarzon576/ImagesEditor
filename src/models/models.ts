@@ -1,0 +1,1 @@
+export type IImage = {url: string; alt: string; image: string}

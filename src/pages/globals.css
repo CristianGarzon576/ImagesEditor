@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box-shadow-link-button {
+  box-shadow: 1px 1px rgb(0,73,113), 3px 3px rgb(0,73,113), 5px 5px rgb(0,73,113), 7px 7px rgb(0,73,113), 9px 9px rgb(0,73,113);
+}
+
+.box-shadow-link-button:hover {
+  transform: translateY(9px) translateX(9px);
+}
